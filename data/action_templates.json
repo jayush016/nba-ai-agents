@@ -1,0 +1,173 @@
+{
+    "action_types": {
+        "email_campaigns": [
+            {
+                "template_id": "cart_abandonment_basic",
+                "name": "Cart Abandonment Reminder",
+                "channel": "email",
+                "subject_line": "You left something behind! {{customer_name}}",
+                "discount_range": "10_to_20_percent",
+                "urgency_level": "medium",
+                "call_to_action": "Complete Your Purchase",
+                "typical_conversion_rate": 0.35,
+                "cost_per_send": 0.05
+            },
+            {
+                "template_id": "win_back_campaign",
+                "name": "Win-Back Offer",
+                "channel": "email",
+                "subject_line": "We miss you! Here's 25% off your next order",
+                "discount_range": "20_to_30_percent",
+                "urgency_level": "high",
+                "call_to_action": "Come Back & Save",
+                "typical_conversion_rate": 0.28,
+                "cost_per_send": 0.05
+            },
+            {
+                "template_id": "vip_early_access",
+                "name": "VIP Early Access",
+                "channel": "email",
+                "subject_line": "{{customer_name}}, you're invited to shop early",
+                "discount_range": "0_percent",
+                "urgency_level": "medium",
+                "call_to_action": "Shop The Collection",
+                "typical_conversion_rate": 0.91,
+                "cost_per_send": 0.08
+            },
+            {
+                "template_id": "personalized_recommendation",
+                "name": "Personalized Product Recommendations",
+                "channel": "email",
+                "subject_line": "Picked just for you, {{customer_name}}",
+                "discount_range": "5_to_10_percent",
+                "urgency_level": "low",
+                "call_to_action": "Discover Your Picks",
+                "typical_conversion_rate": 0.42,
+                "cost_per_send": 0.06
+            },
+            {
+                "template_id": "welcome_new_customer",
+                "name": "Welcome Email",
+                "channel": "email",
+                "subject_line": "Welcome! Here's 10% off your first order",
+                "discount_range": "10_percent",
+                "urgency_level": "medium",
+                "call_to_action": "Start Shopping",
+                "typical_conversion_rate": 0.15,
+                "cost_per_send": 0.04
+            },
+            {
+                "template_id": "replenishment_reminder",
+                "name": "Replenishment Reminder",
+                "channel": "email",
+                "subject_line": "Time to restock {{product_name}}?",
+                "discount_range": "0_to_5_percent",
+                "urgency_level": "low",
+                "call_to_action": "Reorder Now",
+                "typical_conversion_rate": 0.71,
+                "cost_per_send": 0.04
+            }
+        ],
+        "sms_campaigns": [
+            {
+                "template_id": "flash_sale_sms",
+                "name": "Flash Sale Alert",
+                "channel": "sms",
+                "message_template": "{{customer_name}}, FLASH SALE! {{discount}}% off for the next 3 hours. Shop now: {{link}}",
+                "discount_range": "20_to_30_percent",
+                "urgency_level": "very_high",
+                "typical_conversion_rate": 0.51,
+                "cost_per_send": 0.15
+            },
+            {
+                "template_id": "cart_reminder_sms",
+                "name": "SMS Cart Reminder",
+                "channel": "sms",
+                "message_template": "Hi {{customer_name}}, your {{product}} is still waiting! Complete checkout: {{link}}",
+                "discount_range": "10_to_15_percent",
+                "urgency_level": "high",
+                "typical_conversion_rate": 0.38,
+                "cost_per_send": 0.12
+            }
+        ],
+        "push_notifications": [
+            {
+                "template_id": "price_drop_alert",
+                "name": "Price Drop Alert",
+                "channel": "push",
+                "message_template": "Price dropped on {{product_name}}! Now {{discount}}% off",
+                "discount_range": "15_to_25_percent",
+                "urgency_level": "high",
+                "typical_conversion_rate": 0.45,
+                "cost_per_send": 0.02
+            },
+            {
+                "template_id": "back_in_stock",
+                "name": "Back in Stock Notification",
+                "channel": "push",
+                "message_template": "Good news! {{product_name}} is back in stock",
+                "discount_range": "0_percent",
+                "urgency_level": "medium",
+                "typical_conversion_rate": 0.62,
+                "cost_per_send": 0.02
+            }
+        ],
+        "retargeting_ads": [
+            {
+                "template_id": "dynamic_product_ads",
+                "name": "Dynamic Product Retargeting",
+                "channel": "facebook_instagram_ads",
+                "ad_format": "carousel",
+                "discount_range": "10_to_20_percent",
+                "urgency_level": "medium",
+                "typical_conversion_rate": 0.18,
+                "cost_per_impression": 0.75
+            },
+            {
+                "template_id": "google_shopping_ads",
+                "name": "Google Shopping Retargeting",
+                "channel": "google_ads",
+                "ad_format": "product_listing",
+                "discount_range": "5_to_15_percent",
+                "urgency_level": "low",
+                "typical_conversion_rate": 0.22,
+                "cost_per_click": 1.20
+            }
+        ]
+    },
+    "action_combinations": {
+        "cart_abandonment_sequence": [
+            {
+                "timing": "1_hour",
+                "action": "email_cart_abandonment_basic"
+            },
+            {
+                "timing": "24_hours",
+                "action": "sms_cart_reminder_sms"
+            },
+            {
+                "timing": "48_hours",
+                "action": "retargeting_dynamic_product_ads"
+            }
+        ],
+        "high_value_nurture": [
+            {
+                "timing": "immediate",
+                "action": "email_vip_early_access"
+            },
+            {
+                "timing": "weekly",
+                "action": "email_personalized_recommendation"
+            }
+        ]
+    },
+    "budget_constraints": {
+        "max_spend_per_customer_per_month": 10.00,
+        "channels_ranked_by_roi": [
+            "email",
+            "push",
+            "sms",
+            "retargeting_ads"
+        ]
+    }
+}

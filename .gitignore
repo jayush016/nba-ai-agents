@@ -1,0 +1,92 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# ADK specific
+.adk/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Deployment
+*.tar.gz
+*.zip
+
+# MLflow
+mlruns/
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Kaggle Submission Files (keep local only)
+NBA_AI_KAGGLE_NOTEBOOK.py
+KAGGLE_INSTRUCTIONS.md
+KAGGLE_WRITEUP_FINAL.md
+KAGGLE_WRITEUP_FINAL_V2.md
+KAGGLE_UPLOAD_GUIDE.md
+KAGGLE_VISUAL_PRESENTATION.md
+NBA_AI_UNIFIED_NOTEBOOK_GUIDE.md
+
+# YouTube & Social Media (keep local only)
+YOUTUBE_METADATA.md
+
+# Internal Guides (keep local only)
+GITHUB_PUSH_GUIDE.md
+VIDEO_SCRIPT.md
+VIDEO_SCRIPT_V2.md
+VIDEO_EXECUTION_PLAN.md
+VIDEO_VISUALS_GUIDE.md
+CLAUDE_PROMPT_FOR_VIDEO.md
+GEMINI_PROMPT_END_CARD.md

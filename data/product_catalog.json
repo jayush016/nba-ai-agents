@@ -1,0 +1,68 @@
+[
+    {
+        "product_id": "PROD001",
+        "name": "Wireless Headphones Pro",
+        "category": "electronics",
+        "price": 299.99,
+        "cost": 120.00,
+        "margin": 59.97,
+        "stock_quantity": 45,
+        "popularity_score": 8.5,
+        "conversion_rate": 0.12
+    },
+    {
+        "product_id": "PROD002",
+        "name": "Smart Fitness Tracker",
+        "category": "sports",
+        "price": 149.99,
+        "cost": 60.00,
+        "margin": 59.99,
+        "stock_quantity": 120,
+        "popularity_score": 7.8,
+        "conversion_rate": 0.15
+    },
+    {
+        "product_id": "PROD003",
+        "name": "Designer Handbag",
+        "category": "fashion",
+        "price": 599.99,
+        "cost": 200.00,
+        "margin": 66.67,
+        "stock_quantity": 15,
+        "popularity_score": 6.5,
+        "conversion_rate": 0.08
+    },
+    {
+        "product_id": "PROD004",
+        "name": "Premium Coffee Maker",
+        "category": "home",
+        "price": 349.99,
+        "cost": 140.00,
+        "margin": 59.99,
+        "stock_quantity": 32,
+        "popularity_score": 7.2,
+        "conversion_rate": 0.11
+    },
+    {
+        "product_id": "PROD005",
+        "name": "Bestseller Book Bundle",
+        "category": "books",
+        "price": 49.99,
+        "cost": 25.00,
+        "margin": 50.00,
+        "stock_quantity": 200,
+        "popularity_score": 8.9,
+        "conversion_rate": 0.22
+    },
+    {
+        "product_id": "PROD006",
+        "name": "Running Shoes Elite",
+        "category": "sports",
+        "price": 179.99,
+        "cost": 70.00,
+        "margin": 61.11,
+        "stock_quantity": 85,
+        "popularity_score": 8.1,
+        "conversion_rate": 0.14
+    }
+]

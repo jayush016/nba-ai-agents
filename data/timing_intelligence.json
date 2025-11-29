@@ -1,0 +1,207 @@
+{
+    "channel_timing": {
+        "email": {
+            "best_send_times_weekday": {
+                "morning": {
+                    "start": "10:00",
+                    "end": "11:30",
+                    "conversion_rate": 0.42
+                },
+                "lunch": {
+                    "start": "12:00",
+                    "end": "13:30",
+                    "conversion_rate": 0.38
+                },
+                "afternoon": {
+                    "start": "14:00",
+                    "end": "16:00",
+                    "conversion_rate": 0.45
+                },
+                "evening": {
+                    "start": "19:00",
+                    "end": "21:00",
+                    "conversion_rate": 0.51
+                }
+            },
+            "best_send_times_weekend": {
+                "morning": {
+                    "start": "09:00",
+                    "end": "11:00",
+                    "conversion_rate": 0.48
+                },
+                "afternoon": {
+                    "start": "14:00",
+                    "end": "17:00",
+                    "conversion_rate": 0.44
+                }
+            },
+            "worst_times": [
+                "00:00-06:00",
+                "22:00-23:59"
+            ],
+            "optimal_frequency_days": 7,
+            "max_sends_per_week": 2
+        },
+        "sms": {
+            "best_send_times_weekday": {
+                "lunch": {
+                    "start": "12:00",
+                    "end": "14:00",
+                    "conversion_rate": 0.58
+                },
+                "evening": {
+                    "start": "18:00",
+                    "end": "20:00",
+                    "conversion_rate": 0.61
+                }
+            },
+            "best_send_times_weekend": {
+                "mid_morning": {
+                    "start": "10:00",
+                    "end": "12:00",
+                    "conversion_rate": 0.52
+                }
+            },
+            "worst_times": [
+                "before 09:00",
+                "after 21:00"
+            ],
+            "optimal_frequency_days": 14,
+            "max_sends_per_week": 1
+        },
+        "push_notification": {
+            "best_send_times_weekday": {
+                "morning_commute": {
+                    "start": "08:00",
+                    "end": "09:30",
+                    "conversion_rate": 0.44
+                },
+                "lunch": {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "conversion_rate": 0.51
+                },
+                "evening_relax": {
+                    "start": "20:00",
+                    "end": "22:00",
+                    "conversion_rate": 0.47
+                }
+            },
+            "best_send_times_weekend": {
+                "lazy_morning": {
+                    "start": "10:00",
+                    "end": "12:00",
+                    "conversion_rate": 0.49
+                }
+            },
+            "worst_times": [
+                "before 07:00",
+                "after 23:00"
+            ],
+            "optimal_frequency_days": 3,
+            "max_sends_per_week": 3
+        },
+        "retargeting_ads": {
+            "best_times": "continuous_with_dayparting",
+            "high_performance_hours_weekday": [
+                "12:00-14:00",
+                "19:00-22:00"
+            ],
+            "high_performance_hours_weekend": [
+                "10:00-18:00"
+            ],
+            "optimal_frequency_days": 1,
+            "frequency_cap_per_day": 5
+        }
+    },
+    "customer_behavior_patterns": {
+        "cart_abandoners": {
+            "optimal_followup_timing": "1_to_3_hours",
+            "second_touch_timing": "24_hours",
+            "final_touch_timing": "48_hours",
+            "conversion_dropoff_after_hours": 72
+        },
+        "browsing_no_cart": {
+            "optimal_followup_timing": "3_to_6_hours",
+            "retargeting_start": "24_hours",
+            "conversion_window_days": 7
+        },
+        "repeat_customers": {
+            "replenishment_cycle_days": 28,
+            "loyalty_reward_timing": "mid_month",
+            "best_upsell_timing": "7_days_after_purchase"
+        },
+        "first_time_visitors": {
+            "welcome_email_delay_minutes": 30,
+            "second_touch_timing": "24_hours",
+            "nurture_sequence_days": 14
+        }
+    },
+    "urgency_based_timing": {
+        "flash_sale": {
+            "notification_timing": "immediate",
+            "reminder_timing": "1_hour_before_end",
+            "optimal_duration_hours": 6
+        },
+        "limited_stock": {
+            "alert_timing": "immediate",
+            "urgency_threshold_units": 10,
+            "reminder_frequency_hours": 12
+        },
+        "seasonal_event": {
+            "early_bird_notification": "2_weeks_before",
+            "main_campaign": "3_days_before",
+            "last_chance": "day_of_event"
+        }
+    },
+    "day_of_week_insights": {
+        "monday": {
+            "email_performance": 0.38,
+            "sms_performance": 0.41,
+            "best_message_tone": "motivational_start_of_week"
+        },
+        "tuesday": {
+            "email_performance": 0.42,
+            "sms_performance": 0.44,
+            "best_message_tone": "informative"
+        },
+        "wednesday": {
+            "email_performance": 0.45,
+            "sms_performance": 0.46,
+            "best_message_tone": "value_focused"
+        },
+        "thursday": {
+            "email_performance": 0.48,
+            "sms_performance": 0.49,
+            "best_message_tone": "exclusive_preview"
+        },
+        "friday": {
+            "email_performance": 0.51,
+            "sms_performance": 0.58,
+            "best_message_tone": "weekend_ready"
+        },
+        "saturday": {
+            "email_performance": 0.44,
+            "sms_performance": 0.52,
+            "best_message_tone": "relaxed_browsing"
+        },
+        "sunday": {
+            "email_performance": 0.42,
+            "sms_performance": 0.48,
+            "best_message_tone": "plan_ahead"
+        }
+    },
+    "timezone_considerations": {
+        "india_ist": {
+            "peak_shopping_hours": [
+                "10:00-12:00",
+                "19:00-21:00"
+            ],
+            "low_activity_hours": [
+                "00:00-07:00",
+                "14:00-17:00"
+            ]
+        },
+        "multi_timezone_strategy": "send_in_recipients_local_time"
+    }
+}

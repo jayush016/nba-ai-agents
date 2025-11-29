@@ -1,0 +1,103 @@
+[
+  {
+    "action_id": "ACT001",
+    "customer_id": "CUST001",
+    "action_type": "email_discount",
+    "product_recommended": "PROD001",
+    "discount_percentage": 15,
+    "sent_date": "2024-11-05",
+    "opened": true,
+    "clicked": true,
+    "converted": true,
+    "revenue_generated": 254.99,
+    "roi": 2.12
+  },
+  {
+    "action_id": "ACT002",
+    "customer_id": "CUST002",
+    "action_type": "abandoned_cart_reminder",
+    "product_recommended": "PROD002",
+    "discount_percentage": 10,
+    "sent_date": "2024-09-10",
+    "opened": true,
+    "clicked": false,
+    "converted": false,
+    "revenue_generated": 0,
+    "roi": 0
+  },
+  {
+    "action_id": "ACT003",
+    "customer_id": "CUST003",
+    "action_type": "vip_early_access",
+    "product_recommended": "PROD003",
+    "discount_percentage": 0,
+    "sent_date": "2024-11-15",
+    "opened": true,
+    "clicked": true,
+    "converted": true,
+    "revenue_generated": 599.99,
+    "roi": 5.99
+  },
+  {
+    "action_id": "ACT004",
+    "customer_id": "CUST004",
+    "action_type": "re_engagement_offer",
+    "product_recommended": "PROD005",
+    "discount_percentage": 20,
+    "sent_date": "2024-08-01",
+    "opened": false,
+    "clicked": false,
+    "converted": false,
+    "revenue_generated": 0,
+    "roi": 0
+  },
+  {
+    "action_id": "ACT005",
+    "customer_id": "CUST005",
+    "action_type": "personalized_recommendation",
+    "product_recommended": "PROD004",
+    "discount_percentage": 5,
+    "sent_date": "2024-10-20",
+    "opened": true,
+    "clicked": true,
+    "converted": false,
+    "revenue_generated": 0,
+    "roi": 0
+  },
+  {
+    "timestamp": "2025-11-22T04:17:58.954635",
+    "customer_id": "CUST_78912",
+    "customer_segment": "premium",
+    "scenario_type": "cart_abandoner",
+    "action_type": "email_discount",
+    "channel": "email",
+    "estimated_cost": 150,
+    "predicted_roi": 8.5,
+    "action_status": "scheduled",
+    "approved_by": "human"
+  },
+  {
+    "timestamp": "2025-11-22T04:24:07.593861",
+    "customer_id": "CUST_87213",
+    "customer_segment": "premium",
+    "scenario_type": "repeat_customer",
+    "action_type": "email_discount",
+    "channel": "email",
+    "estimated_cost": 500,
+    "predicted_roi": 8.5,
+    "action_status": "scheduled",
+    "approved_by": "human"
+  },
+  {
+    "timestamp": "2025-11-30T04:15:14.753289",
+    "customer_id": "CUST_87392",
+    "customer_segment": "value_conscious",
+    "scenario_type": "churn_risk",
+    "action_type": "email_discount",
+    "channel": "email",
+    "estimated_cost": 150,
+    "predicted_roi": 8.5,
+    "action_status": "scheduled",
+    "approved_by": "human"
+  }
+]

@@ -1,0 +1,224 @@
+{
+    "brand_voice": {
+        "tone_options": {
+            "professional": {
+                "description": "Formal, business-appropriate language",
+                "use_cases": [
+                    "B2B",
+                    "luxury_products",
+                    "high_value_customers"
+                ],
+                "example_phrases": [
+                    "We're pleased to inform you",
+                    "Take advantage of this exclusive offer"
+                ]
+            },
+            "friendly": {
+                "description": "Warm, conversational but respectful",
+                "use_cases": [
+                    "general_audience",
+                    "lifestyle_products",
+                    "repeat_customers"
+                ],
+                "example_phrases": [
+                    "Hey there!",
+                    "We thought you'd love this",
+                    "Just for you"
+                ]
+            },
+            "urgent": {
+                "description": "Time-sensitive, action-oriented",
+                "use_cases": [
+                    "flash_sales",
+                    "cart_abandonment",
+                    "limited_stock"
+                ],
+                "example_phrases": [
+                    "Hurry!",
+                    "Only {{hours}} left",
+                    "Don't miss out"
+                ]
+            },
+            "helpful": {
+                "description": "Supportive, educational",
+                "use_cases": [
+                    "welcome_emails",
+                    "tutorials",
+                    "customer_service"
+                ],
+                "example_phrases": [
+                    "Here's how",
+                    "We're here to help",
+                    "Let us guide you"
+                ]
+            }
+        }
+    },
+    "personalization_tokens": {
+        "customer_data": [
+            "{{customer_name}}",
+            "{{first_name}}",
+            "{{last_product_browsed}}",
+            "{{cart_value}}",
+            "{{days_since_purchase}}",
+            "{{loyalty_tier}}"
+        ],
+        "product_data": [
+            "{{product_name}}",
+            "{{category}}",
+            "{{discount_percentage}}",
+            "{{original_price}}",
+            "{{sale_price}}",
+            "{{stock_remaining}}"
+        ],
+        "dynamic_content": [
+            "{{personalized_recommendations}}",
+            "{{similar_items}}",
+            "{{recently_viewed}}",
+            "{{best_sellers}}"
+        ]
+    },
+    "subject_line_formulas": {
+        "cart_abandonment": {
+            "formula_1": "{{customer_name}}, you left {{product_name}} behind",
+            "formula_2": "Still thinking about {{product_name}}? Here's {{discount}}% off",
+            "formula_3": "Your cart is waiting (+ a special surprise inside!)",
+            "best_performer": "formula_2",
+            "avg_open_rate": 0.42
+        },
+        "discount_offers": {
+            "formula_1": "{{discount}}% off {{category}} - Just for you!",
+            "formula_2": "Flash Sale: Save {{discount}}% for the next {{hours}} hours",
+            "formula_3": "Exclusive: {{customer_name}}, your {{discount}}% discount inside",
+            "best_performer": "formula_3",
+            "avg_open_rate": 0.48
+        },
+        "vip_exclusive": {
+            "formula_1": "{{customer_name}}, you're invited to shop early",
+            "formula_2": "VIP Access: Shop before everyone else",
+            "formula_3": "Private sale for our best customers (that's you!)",
+            "best_performer": "formula_1",
+            "avg_open_rate": 0.67
+        },
+        "reengagement": {
+            "formula_1": "We miss you! Here's {{discount}}% off to come back",
+            "formula_2": "{{customer_name}}, it's been a while - let's reconnect",
+            "formula_3": "Something new from {{brand_name}} just for you",
+            "best_performer": "formula_1",
+            "avg_open_rate": 0.29
+        }
+    },
+    "email_structure_best_practices": {
+        "subject_line": {
+            "max_length_chars": 50,
+            "personalization_boost": 0.26,
+            "emoji_boost": 0.12,
+            "avoid": [
+                "spam_words",
+                "all_caps",
+                "excessive_punctuation"
+            ]
+        },
+        "preheader_text": {
+            "max_length_chars": 90,
+            "should_complement_subject": true,
+            "call_to_action_boost": 0.15
+        },
+        "body_copy": {
+            "ideal_word_count": "50_to_150",
+            "paragraph_max_lines": 3,
+            "use_bullet_points": true,
+            "include_social_proof": true
+        },
+        "call_to_action": {
+            "button_text_max_words": 4,
+            "high_converting_ctas": [
+                "Shop Now",
+                "Get My Discount",
+                "Complete My Purchase",
+                "Show Me More",
+                "Unlock My Deal"
+            ],
+            "button_color": "high_contrast_with_background",
+            "placement": "above_fold_and_end"
+        }
+    },
+    "sms_guidelines": {
+        "max_length_chars": 160,
+        "structure": "greeting + value_prop + cta + link",
+        "personalization_required": true,
+        "include_brand_name": true,
+        "example_template": "Hi {{name}}! {{offer}}. {{cta}}: {{short_link}}",
+        "opt_out_compliance": "Include 'Reply STOP to opt out' every 5th message"
+    },
+    "push_notification_guidelines": {
+        "title_max_chars": 40,
+        "body_max_chars": 120,
+        "use_emoji": "sparingly",
+        "deep_link_required": true,
+        "example_template": {
+            "title": "{{emoji}} {{product_name}} is {{discount}}% off!",
+            "body": "Limited time offer just for you. Tap to shop now."
+        }
+    },
+    "compliance_requirements": {
+        "email": {
+            "required_elements": [
+                "unsubscribe_link",
+                "physical_address",
+                "company_name"
+            ],
+            "gdpr_compliant": true,
+            "can_spam_compliant": true
+        },
+        "sms": {
+            "required_elements": [
+                "opt_out_instructions",
+                "company_identification"
+            ],
+            "tcpa_compliant": true
+        }
+    },
+    "A_B_testing_winners": {
+        "subject_lines": {
+            "winner": "Personalized with emoji and urgency",
+            "example": "{{name}} 🎉 {{discount}}% off ends tonight!",
+            "lift_over_control": 0.34
+        },
+        "email_length": {
+            "winner": "Short and scannable (under 100 words)",
+            "lift_over_control": 0.18
+        },
+        "cta_placement": {
+            "winner": "Two CTAs (one above fold, one at end)",
+            "lift_over_control": 0.22
+        },
+        "send_time": {
+            "winner": "Thursday evening 7-8 PM",
+            "lift_over_control": 0.29
+        }
+    },
+    "content_templates_by_scenario": {
+        "cart_abandonment": {
+            "subject": "{{customer_name}}, you left something behind!",
+            "preview": "Complete your purchase and get {{discount}}% off",
+            "headline": "Finish what you started",
+            "body": "Hi {{customer_name}},\n\nWe noticed you left {{product_name}} in your cart. We've saved it for you!\n\nAs a thank you for coming back, here's {{discount}}% off your order.\n\nYour cart: {{cart_items}}\nTotal: {{cart_total}}\n\nOffer expires in {{hours}} hours.",
+            "cta": "Complete My Purchase"
+        },
+        "win_back": {
+            "subject": "We miss you! Here's {{discount}}% off",
+            "preview": "It's been a while - let's reconnect with a special offer",
+            "headline": "Welcome back, {{customer_name}}!",
+            "body": "It's been {{days}} days since we last saw you. We've missed you!\n\nHere's what's new:\n• {{new_collection}}\n• {{trending_products}}\n• {{personalized_picks}}\n\nUse code {{promo_code}} for {{discount}}% off your next order.",
+            "cta": "Start Shopping"
+        },
+        "vip_exclusive": {
+            "subject": "{{customer_name}}, you're invited to shop early",
+            "preview": "VIP early access to our newest collection",
+            "headline": "Shop before everyone else",
+            "body": "As one of our valued VIP customers, you get first access to {{collection_name}}.\n\nShop now before it goes public tomorrow.\n\nFree shipping on all VIP orders.",
+            "cta": "Shop The Collection"
+        }
+    }
+}

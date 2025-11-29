@@ -1,0 +1,116 @@
+[
+  {
+    "customer_id": "CUST_001",
+    "action_id": "action_001",
+    "action_type": "cart_abandonment",
+    "channel": "email",
+    "discount_percentage": 10,
+    "recorded_at": "2025-11-21T03:52:47.025766",
+    "result": {
+      "opened": true,
+      "clicked": true,
+      "converted": true,
+      "revenue": 5000,
+      "cost": 0.05
+    },
+    "calculated_metrics": {
+      "roi": 9999899.999999998,
+      "success": true
+    }
+  },
+  {
+    "customer_id": "CUST_001",
+    "action_id": "action_001",
+    "action_type": "cart_abandonment",
+    "channel": "email",
+    "discount_percentage": 10,
+    "recorded_at": "2025-11-21T03:54:16.698171",
+    "result": {
+      "opened": true,
+      "clicked": true,
+      "converted": true,
+      "revenue": 5000,
+      "cost": 0.05
+    },
+    "calculated_metrics": {
+      "roi": 9999899.999999998,
+      "success": true
+    }
+  },
+  {
+    "customer_id": "CUST_3478",
+    "action_id": "email_abandoned_cart_discount",
+    "action_type": null,
+    "channel": null,
+    "discount_percentage": 0,
+    "recorded_at": "2025-11-21T04:41:48.836330",
+    "result": {
+      "opened": false,
+      "clicked": false,
+      "converted": false,
+      "revenue": 0,
+      "cost": 0.05
+    },
+    "calculated_metrics": {
+      "roi": -100.0,
+      "success": false
+    }
+  },
+  {
+    "customer_id": "CUST_001",
+    "action_id": null,
+    "action_type": null,
+    "channel": null,
+    "discount_percentage": 0,
+    "recorded_at": "2025-11-21T18:45:09.936082",
+    "result": {
+      "opened": false,
+      "clicked": false,
+      "converted": false,
+      "revenue": 0,
+      "cost": 0.05
+    },
+    "calculated_metrics": {
+      "roi": -100.0,
+      "success": false
+    }
+  },
+  {
+    "customer_id": "CUST_972",
+    "action_id": "email_rec_Aarav_1",
+    "action_type": "nurture",
+    "channel": "email",
+    "discount_percentage": 8,
+    "recorded_at": "2025-11-21T18:46:12.570536",
+    "result": {
+      "opened": false,
+      "clicked": false,
+      "converted": false,
+      "revenue": 0,
+      "cost": 0.06
+    },
+    "calculated_metrics": {
+      "roi": -100.0,
+      "success": false
+    }
+  },
+  {
+    "customer_id": "CUST_972",
+    "action_id": "email_replenish_Aarav_1",
+    "action_type": "nurture",
+    "channel": "email",
+    "discount_percentage": 3,
+    "recorded_at": "2025-11-21T18:46:12.587702",
+    "result": {
+      "opened": false,
+      "clicked": false,
+      "converted": false,
+      "revenue": 0,
+      "cost": 0.04
+    },
+    "calculated_metrics": {
+      "roi": -100.0,
+      "success": false
+    }
+  }
+]
