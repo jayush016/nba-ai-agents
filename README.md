@@ -2,8 +2,6 @@
 
 > **Intelligent Marketing Orchestration System** | 10 AI Agents | Human-in-the-Loop | Continuous Learning
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
 [![Google ADK](https://img.shields.io/badge/Powered%20by-Google%20ADK-4285F4)](https://cloud.google.com/products/agent-development-kit)
 [![Gemini AI](https://img.shields.io/badge/LLM-Gemini%202.5%20Flash-34A853)](https://ai.google.dev/)
 
@@ -444,17 +442,12 @@ Contributions welcome! Here's how:
 
 ---
 
-## 📄 **License**
-
-MIT License - see [LICENSE](LICENSE) file for details.
-
----
 
 ## 👨‍💻 **Author**
 
-**Your Name**  
-📧 your.email@example.com  
-🔗 [LinkedIn](https://linkedin.com/in/yourprofile) | [Portfolio](https://yoursite.com) | [Kaggle](https://kaggle.com/yourprofile)
+**Ayush Jain**  
+📧 jayush016@gmail.com  
+🔗 [LinkedIn](https://linkedin.com/in/jayush016) | [Kaggle](https://www.kaggle.com/jayush016kaggle)
 
 ---
 
