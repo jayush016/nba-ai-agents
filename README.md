@@ -37,13 +37,13 @@ Hasn't purchased in 60 days                                                     
 ```
 
 **Real Example:**
-- **Input:** Eleanor, 34, hasn't purchased in 45 days, browsing fitness tracker, cart value ₹75
+- **Input:** Peter Parker, 22, hasn't purchased in 45 days, browsing camera lens, cart value $299
 - **NBA AI Output:** 
   - ✅ Churn risk: HIGH (urgency: 0.75)
-  - ✅ Best action: Email with 15% discount on fitness tracker
+  - ✅ Best action: Email with 15% discount on the lens and free shipping
   - ✅ Send time: Today, 7:30 PM
-  - ✅ Personalized subject: "Eleanor, your Smart Fitness Tracker is waiting 🏃‍♀️"
-  - ✅ Expected conversion: 55%
+  - ✅ Personalized subject: "Peter, your Canon Lens is waiting 🏃‍♀️"
+  - ✅ Expected conversion: 73%
   - **Actual result:** Customer converted! → System learns for next time
 
 ---
